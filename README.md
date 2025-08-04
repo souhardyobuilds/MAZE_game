@@ -2,10 +2,10 @@
 
 # MAZE_game
 
-A fun and interactive maze game where players use a joystick to navigate through a maze displayed on an OLED screen. This project is built using an Arduino Uno microcontroller and an OLED display to create a simple yet engaging game.
+A fun and interactive maze game where players use a joystick to navigate through a maze displayed on an OLED screen. This project is built using an Arduino Uno/Nano microcontroller and an OLED display to create a simple yet engaging game.
 
 About->
-Maze Game is a simple game developed using an Arduino Uno, a Joystick, and an OLED screen. The player controls a cursor on the OLED screen using the joystick, attempting to navigate through the maze and reach the goal without hitting the walls. The game is fully interactive and provides an immersive way to explore basic game development with embedded systems.
+Maze Game is a simple game developed using an Arduino Uno/Nano, a Joystick, and an OLED screen. The player controls a cursor on the OLED screen using the joystick, attempting to navigate through the maze and reach the goal without hitting the walls. The game is fully interactive and provides an immersive way to explore basic game development with embedded systems.
 
 Components Used->
 This project requires the following components:
@@ -17,13 +17,13 @@ Jumper Wires and Breadboard (for connecting components).
 Installation & Setup->
 To set up the project, follow these steps:
 Connect the Components:
-Connect the OLED display to the Arduino Uno.
+Connect the OLED display to the Arduino Uno/Nano.
 VCC -> 5V
 GND -> GND
 SDA -> A4
 SCL -> A5
 
-Connect the Joystick to the Arduino Uno.
+Connect the Joystick to the Arduino Uno/Nano.
 VCC -> 5
 GND -> GND
 VRX -> A1
@@ -32,10 +32,10 @@ SW -> Digital Pin (e.g., D2)
 
 Upload the Code to Arduino:
 Open the Arduino IDE and load the provided sketch (maze_game.ino).
-Select the correct board (Arduino Uno) and the correct port.
-Upload the sketch to your Arduino Uno.
+Select the correct board (Arduino Uno/Nano) and the correct port.
+Upload the sketch to your Arduino Uno/Nano.
 Power the Circuit:
-Power your Arduino Uno using a USB cable or an external power source.
+Power your Arduino Uno/Nano using a USB cable or an external power source.
 Your maze game should now be running on the OLED screen!
 
 Game Instructions->
