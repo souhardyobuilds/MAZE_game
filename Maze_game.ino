@@ -180,21 +180,20 @@ void player_control() {
   }	
 	}//player_control() ends
 
-	void player_win(){
-
-		if (player_x >= 82 && player_x <= 88 && player_y >=13 && player_y <= 15){
+void player_win(){
+  if (player_x >= 82 && player_x <= 88 && player_y >=13 && player_y <= 15){
 		
-		delay(200);
-		display.clearDisplay();
-		display.display();
+    delay(200);
+    display.clearDisplay();
+    display.display();
 
-		display.setTextSize(1);
-		display.setTextColor(WHITE);
-		display.setCursor(39,30);
-		display.println("YOU WON!!");
-		display.drawRect(32, 25, 65, 16, WHITE);
+    display.setTextSize(1);
+    display.setTextColor(WHITE);
+    display.setCursor(39,30);
+    display.println("YOU WON!!");
+    display.drawRect(32, 25, 65, 16, WHITE);
 
-		display.display();
-		delay(100000);
-	}
-	}//player_win() ends
+    display.display();
+    delay(100000);
+}
+}//player_win() ends
